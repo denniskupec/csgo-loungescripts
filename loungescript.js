@@ -14,7 +14,7 @@
   'use strict';
 
   document.querySelector('#submenu > footer').insertAdjacentHTML('beforeend', '<p style="color:#33cc33">LoungeScript Installed</p>');
-  document.querySelector('body > header').insertAdjacentHTML('beforeend', '<div id="ls-logger" style="padding: 3px; background:#666666; color:#FFFFFF; height:64px; width:500px; overflow:hidden; text-align:left; font-size:11px; font-family:"Courier New", Courier, monospace;"></div>');
+  document.querySelector('body > header').insertAdjacentHTML('beforeend', '<div id="ls-logger" style="padding: 3px; background:#666666; color:#FFFFFF; height:58px; width:500px; overflow:hidden; position:absolute; text-align:left; font-size:11px; font-family:"Courier New", Courier, monospace;"></div>');
 
   window.alert = function(message) {
     console.log("Alert: " + message);
